@@ -1,0 +1,6 @@
+# Mandatory packages
+kafka-python>=2.0.0      # Kafka producer/consumer for streaming transactions
+
+# Optional packages (helpful for data manipulation or extensions)
+pandas>=2.0.0            # For handling or analyzing data locally
+numpy>=1.25.0             # Numeric operations and random generation
