@@ -65,28 +65,36 @@ Azure Databricks (Spark Structured Streaming + Fraud Detection)
 azure-fraud-detection/
 │
 ├── data-generator/
-│ ├── stream_transactions.py
-│ └── requirements.txt
+│   ├── stream_transactions.py
+│   └── requirements.txt
 │
 ├── databricks/
-│ ├── notebooks/
-│ │ └── fraud_streaming_job.py
-│ └── mount_adls.py
+│   ├── notebooks/
+│   │   ├── 01_mount_adls.py
+│   │   └── 02_fraud_streaming_job.py
+│   └── README.md
 │
 ├── sql/
-│ └── create_fraud_table.sql
+│   └── create_fraud_table.sql
 │
 ├── azure-function/
-│ └── fraud_email_function/
-│ ├── function_app.py
-│ ├── function.json
-│ └── requirements.txt
+│   └── fraud_email_function/
+│       ├── function_app.py
+│       ├── function.json
+│       └── requirements.txt
 │
 ├── architecture/
-│ └── azure_fraud_pipeline.png
+│   └── azure_fraud_pipeline.png
 │
 ├── dashboard/
-│ └── fraud_analytics.pbix
+│   └── fraud_analytics.pbix
+│
+├── screenshots/
+│   ├── architecture.png
+│   ├── databricks_streaming_job.png
+│   ├── sql_fraud_table.png
+│   ├── email_alert_sample.png
+│   └── powerbi_dashboard.png
 │
 └── README.md
 
@@ -180,8 +188,6 @@ The dashboard is designed for operational monitoring and analysis.
 - SQL Database serves as a curated, query-optimized sink
 - Azure Functions enable asynchronous, event-driven alerting
 - Clear separation of compute, storage, and serving layers
-
----
 
 ## License
 
