@@ -7,7 +7,7 @@ The system simulates live transaction traffic, performs streaming fraud detectio
 ---
 
 ## Architecture Overview
-
+```
 Local Python Transaction Generator
         ↓
        Kafka (Azure VM)
@@ -30,7 +30,7 @@ Azure Databricks (Spark Structured Streaming + Fraud Detection)
         ↓
    Power BI Dashboard
    (reads from SQL Database)
-
+```
 
 ---
 
