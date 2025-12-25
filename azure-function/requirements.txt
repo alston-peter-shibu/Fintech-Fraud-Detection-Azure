@@ -1,0 +1,4 @@
+azure-functions==1.24.0        # For creating Azure Functions
+sendgrid==6.12.5               # For sending emails via SendGrid
+requests==2.32.5               # For HTTP requests to call APIs
+python-dotenv==1.1.1           # Optional: for local testing with .env files
