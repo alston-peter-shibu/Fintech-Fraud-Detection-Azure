@@ -62,6 +62,7 @@ Azure Databricks (Spark Structured Streaming + Fraud Detection)
 
 ## Project Structure
 
+```
 azure-fraud-detection/
 │
 ├── data-generator/
@@ -97,8 +98,7 @@ azure-fraud-detection/
 │   └── powerbi_dashboard.png
 │
 └── README.md
-
-
+```
 
 ---
 
