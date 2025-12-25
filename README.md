@@ -67,37 +67,40 @@ azure-fraud-detection/
 │
 ├── data-generator/
 │   ├── stream_transactions.py
-│   └── requirements.txt
+│   └── requirements.txt         # Libraries needed to generate/stream transactions
 │
 ├── databricks/
 │   ├── notebooks/
 │   │   ├── 01_mount_adls.py
 │   │   └── 02_fraud_streaming_job.py
-│   └── README.md
+│   └── README.md                 # Explain notebook purpose and usage
 │
 ├── sql/
-│   └── create_fraud_table.sql
+│   └── create_fraud_table.sql   # SQL script to create fraud table
 │
 ├── azure-function/
 │   └── fraud_email_function/
 │       ├── function_app.py
 │       ├── requirements.txt
-│       
+│       └── README.md             # Explain purpose of function and how to deploy
 │
 ├── architecture/
-│   └── azure_fraud_pipeline.png
+│   └── azure_fraud_pipeline.png # Official architecture diagram
 │
 ├── dashboard/
-│   └── fraud_analytics.pbix
+│   └── fraud_analytics.pbix     # Power BI dashboard
 │
 ├── screenshots/
-│   ├── architecture.png
 │   ├── databricks_streaming_job.png
 │   ├── sql_fraud_table.png
 │   ├── email_alert_sample.png
 │   └── powerbi_dashboard.png
 │
-└── README.md
+└── README.md                     # Main project README, includes:
+                                   # - Project overview
+                                   # - Folder structure (like above)
+                                   # - How to run each component (Databricks notebooks, Azure Function, etc.)
+
 ```
 
 ---
