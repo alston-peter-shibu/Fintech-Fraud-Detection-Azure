@@ -81,8 +81,8 @@ azure-fraud-detection/
 ├── azure-function/
 │   └── fraud_email_function/
 │       ├── function_app.py
-│       ├── function.json
-│       └── requirements.txt
+│       ├── requirements.txt
+│       
 │
 ├── architecture/
 │   └── azure_fraud_pipeline.png
